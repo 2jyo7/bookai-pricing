@@ -1,0 +1,52 @@
+{
+    "response": [
+      { "id": "1", 
+        "message": "Book generation started",
+        "status": "processing",
+        "job_id": "unique-job-identifier"
+    },
+      { "id": "2",
+      "message": "Find Book By Author",
+        "status": "processing",
+        "job_id": "unique-job-identifier"
+     }
+    ],
+
+    "python": [
+        { "id" : "2",
+      "headers": {
+    "Content-Type": "application/json",
+    "X-API-Key": "API_KEY"
+    },
+
+   "data": {
+    "api": "openai",
+    "model": "gpt-3.5-turbo",
+    "topic": "The Future of Artificial Intelligence",
+    "language": "English",
+    "word_count": 5000
+      }
+
+}
+    ],
+
+    "javascript": [
+      {
+        "id": "3",
+        "headers": {
+                "Content-Type": "application/json",
+                "X-API-Key": "API_KEY"
+            },
+            "data" : {
+                    "api": "openai",
+                    "model": "gpt-3.5-turbo",
+                    "topic": "The Future of Artificial Intelligence",
+                    "language": "English",
+                    "word_count": 5000
+                }
+                 }
+    ]
+}
+
+
+   
