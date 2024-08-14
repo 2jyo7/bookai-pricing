@@ -26,7 +26,7 @@ const Endpoints = () => {
       {/* card 1 */}
       <div className="p-4 h-full">
         <div className="flex rounded-lg h-full dark:bg-slate-900
-         bg-gray-800 p-8 flex-col max-w-sm md:max-w-7xl
+         bg-gray-800 p-8 flex-col max-w-sm 
           border border-gray-500">
           <div className="flex items-center mb-3">
             <h2 className="text-violet-400 text-3xl dark:text-white font-medium">
@@ -40,7 +40,7 @@ const Endpoints = () => {
 
           <div className="flex items-center mb-3 space-x-4">
             <div className="border border-gray-700 rounded-md bg-teal-500 
-            w-24 text-xl text-black font-semibold max-w-sm md:max-w-7xl
+            w-24 text-xl text-black font-semibold max-w-sm
               flex justify-center items-center p-2">
               POST
             </div>
