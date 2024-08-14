@@ -24,16 +24,15 @@ const CodeExample = () => {
 
  return (
     <div 
-    className="max-w-sm w-full mx-auto
-    rounded-lg shadow-md overflow-hidden md:max-w-7xl flex flex-wrap justify-center mt-10">
+    className="max-w-sm mx-auto
+    rounded-lg shadow-md overflow-hidden md:max-w-5xl mt-10">
     {/* card 1 */}
     <div className="p-4 h-full">
       <div className="flex rounded-lg h-full dark:bg-slate-900 bg-gray-800 
-      p-8 flex-col max-w-sm
-       border border-gray-500">
-        <div className="flex items-center mb-3">
+      p-8 flex-col border border-gray-500">
+        <div className="flex items-center ml-3">
          
-          <h2 className="text-violet-400 text-3xl mt-10 dark:text-white font-medium">
+          <h2 className="text-violet-400 text-3xl mt-10 dark:text-white font-medium ">
             Code-Examples
           </h2>
         </div>
@@ -46,7 +45,7 @@ const CodeExample = () => {
          </h3>
        </div>
       <div className="flex rounded-lg h-full dark:bg-slate-900 bg-gray-800 p-8 flex-col
-       border border-gray-500 max-w-sm">
+       border border-gray-500 ">
         <div className="flex flex-col justify-between flex-grow">
         
         <div className="flex flex-col justify-center px-4 sm:px-6 lg:px-8">

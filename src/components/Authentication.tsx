@@ -24,7 +24,7 @@ const handleApiClick = () => {
   return (
    
       <div className="max-w-sm w-full mx-auto
-    rounded-lg shadow-md overflow-hidden md:max-w-7xl flex flex-wrap justify-center mt-10">
+    rounded-lg shadow-md overflow-hidden md:max-w-5xl justify-center mt-10">
       {/* card 1 */}
       <div className="p-4 h-full">
         <div className="flex rounded-lg h-full dark:bg-slate-900 bg-gray-800 p-8 flex-col

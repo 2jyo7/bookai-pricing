@@ -21,13 +21,12 @@ const Endpoints = () => {
 
   return (
     <div 
-    className="max-w-sm w-full mx-auto
-    rounded-lg shadow-md overflow-hidden md:max-w-7xl flex flex-wrap justify-center mt-10">
+    className="max-w-sm mx-auto
+    rounded-lg shadow-md overflow-hidden md:max-w-5xl justify-center mt-10">
       {/* card 1 */}
       <div className="p-4 h-full">
-        <div className="flex rounded-lg h-full dark:bg-slate-900
-         bg-gray-800 p-8 flex-col max-w-sm 
-          border border-gray-500">
+        <div className="flex rounded-lg h-full 
+          p-8 flex-col border border-gray-500">
           <div className="flex items-center mb-3">
             <h2 className="text-violet-400 text-3xl dark:text-white font-medium">
               EndPoints
@@ -40,7 +39,7 @@ const Endpoints = () => {
 
           <div className="flex items-center mb-3 space-x-4">
             <div className="border border-gray-700 rounded-md bg-teal-500 
-            w-24 text-xl text-black font-semibold max-w-sm
+            w-24 text-xl text-black font-semibold
               flex justify-center items-center p-2">
               POST
             </div>
@@ -50,13 +49,13 @@ const Endpoints = () => {
             </div>
           </div>
 
-          <div className="flex flex-col justify-between flex-grow mt-10 max-w-sm">
+          <div className="flex flex-col justify-between flex-grow mt-10">
             <h3 className="text-violet-400 text-2xl dark:text-white font-medium">Request Body</h3>
             <div className="flex flex-col">
                         <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
                           <div className="py-2 inline-block min-w-full sm:px-6 lg:px-8">
                             <div className="overflow-hidden">
-            <table className=" min-w-full max-w-sm">
+            <table className=" min-w-full ">
               <thead>
                 <tr className="bg-blue-500 text-white text-lg">
                   <th className="py-3 px-6 text-left font-medium">PARAMETER</th>
@@ -107,7 +106,7 @@ const Endpoints = () => {
             {showResponse && (
               <div className="p-4 max-w-5xl h-full">
                 <div className="flex rounded-lg h-full
-                 dark:bg-slate-900 bg-gray-700 p-8 flex-col max-w-sm
+                 dark:bg-slate-900 bg-gray-700 p-8 flex-col 
                   border border-gray-500">
                   <div className="flex flex-col justify-between flex-grow">
                     {data && data.map((d) => (
@@ -115,7 +114,7 @@ const Endpoints = () => {
                         <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
                           <div className="py-2 inline-block min-w-full sm:px-6 lg:px-8">
                             <div className="overflow-hidden">
-                              <table className="min-w-full max-w-sm">
+                              <table className="min-w-full">
                                 <thead className="border-b">
                                   <tr>
                                     <th

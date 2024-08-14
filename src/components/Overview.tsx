@@ -5,17 +5,14 @@ const Overview = () => {
   
   return (
     <div className="max-w-sm w-full mx-auto
-    rounded-lg shadow-md overflow-hidden md:max-w-4xl flex flex-wrap justify-center mt-10">
+    rounded-lg shadow-md overflow-hidden md:max-w-5xl justify-center mt-10">
     {/* card 1 */}
     <div className="p-4 h-full">
       <div className="flex rounded-lg h-full dark:bg-slate-900 bg-gray-800 p-8 flex-col
        border border-gray-500">
         
         <div className="flex items-center mb-3">
-          {/* <div className="w-8 h-8 mr-3 inline-flex items-center justify-center
-           rounded-full dark:bg-indigo-500 bg-indigo-500 text-white flex-shrink-0">
-           
-          </div> */}
+          
           <h2 className="text-violet-400 text-3xl mt-10 dark:text-white font-medium">
             Overview
           </h2>
